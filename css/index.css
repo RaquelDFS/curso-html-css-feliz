@@ -1,7 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+                                                        /*INICIO DO HEADER*/
 header{
     background-color: #FF3864;
     display: flex;
@@ -50,16 +50,18 @@ a::before{
     box-shadow:none;
     background-color: rgb(255, 255, 255);
 }
+                                                        /*FIM DO HEADER*/
+                                                        /*iNICIO DO MAIN*/
 main{
     display: flex;
     height: 100vh;
-  border: 5px solid black;
+    border: 5px solid black;
     
 }
 
-
+                                    /* I BACKGROUND*/
 #divA{
-    background-image: url(/assets/_background_banner\ 1.1.png);
+    background-image: url(/assets/bg1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
@@ -68,11 +70,65 @@ main{
 }
 
 #divB{
-    background-image: url(/assets/_background_banner\ 1.2.png);
+    background-image: url(/assets/bg2.png);
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
     background-position: left;
     width: 34vw; 
 }
+                                    /* F BACKGROUND*/
+                                   /* I SECTION*/
+#container{
+    position: relative;
+    margin-top: 107px;
+    margin-left: 107px;
+}
+#section1{
+    display: table;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 27px;
+    height: 184px;
+    padding: 20px;
+    box-shadow: black 4px 4px; 
+    
+}
+h1{
+    color: #FF3864;
+    font-weight: 600;
+    font-size: 50px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: black;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    font-style: italic;
+    padding-left: 15px; 
+}
+h2::before{
+    display:   inline-block;
+    content:"";
+    background-color: #FF3864 ;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+ }
+ #TXT1{
+     display: flex;
+     margin: 20px;
+ }
+.buttons{
+    background-color: #FF3864;
+    padding: 20px;
+    border-radius: 27px;
+    margin-right: 60px;
+}
+
 
