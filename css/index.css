@@ -75,7 +75,7 @@ main{
 #container{
     position: absolute;
     top: 200px;
-    left: 10vw;
+    left: 5vw;
 }
 #section1{
     display: table;
