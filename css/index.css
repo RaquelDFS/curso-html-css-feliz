@@ -50,3 +50,31 @@ a::before{
     box-shadow:none;
     background-color: rgb(255, 255, 255);
 }
+main{
+    display: flex;
+    height: 100vh;
+  border: 5px solid black;
+    
+}
+
+
+#divA{
+    background-image: url(/assets/_background_banner\ 1.1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 65vw;
+    border-right: 5px solid black;
+    
+ 
+}
+
+#divB{
+    background-image: url(/assets/_background_banner\ 1.2.png);
+    transform: ;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: left;
+    width: 34vw; 
+}
