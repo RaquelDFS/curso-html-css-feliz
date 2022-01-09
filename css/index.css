@@ -3,6 +3,7 @@ body{
 }
                                                         /*INICIO DO HEADER*/
 header{
+    order: 1;
     background-color: #FF3864;
     display: flex;
     align-items: center;
@@ -13,13 +14,12 @@ img{
     height: 60px;
     border-radius: 55%;
 }
-
-a{  
+.dot{  
 text-decoration: none;
 color: white;
 margin-left: 30px; 
 }
-a::before{
+.dot::before{
     display: inline-block;
     content:"";
     background-color: #ffffff ;
@@ -28,22 +28,18 @@ a::before{
     margin-right: 10px;
     border-radius: 50%;
 }
-
-#button{
+button{
+    font-family: "poppins";
+    font-size: medium;
+    color: #ffffff;
     display: inline-block;
     background-color: #1A1A71;
-    height: 20px;
-    line-height: 20px;
-    padding:10px 25px 10px 15px;
+    margin-left: 30px;
+    padding:10px 25px;
     border-radius: 100px;
     border: rgb(255, 255, 255) solid 2px;
 }
-#button::before{
-    content: "";
-    background-color: #ffffff00 ;
-    padding: 0%;
-}
-#button:hover{
+button:hover{
     content: "";
     color: #FF3864;
     border: rgb(255, 0, 85) solid 2px;
@@ -51,14 +47,12 @@ a::before{
     background-color: rgb(255, 255, 255);
 }
                                                         /*FIM DO HEADER*/
-                                                        /*iNICIO DO MAIN*/
+                                                        /* I DO MAIN*/
 main{
     display: flex;
     height: 100vh;
     border: 5px solid black;
-    
 }
-
                                     /* I BACKGROUND*/
 #divA{
     background-image: url(../assets/bg1.png);
@@ -68,7 +62,6 @@ main{
     width: 65vw;
     border-right: 5px solid black; 
 }
-
 #divB{
     background-image: url(../assets/bg2.png);
     background-repeat: no-repeat;
@@ -78,21 +71,19 @@ main{
     width: 34vw; 
 }
                                     /* F BACKGROUND*/
-                                   /* I SECTION*/
+                                   /* I CONTAINER*/
 #container{
-    position: relative;
-    margin-top: 107px;
-    margin-left: 107px;
+    position: absolute;
+    top: 200px;
+    left: 10vw;
 }
 #section1{
     display: table;
     background-color: white;
-    margin-bottom: 20px;
     border-radius: 27px;
-    height: 184px;
-    padding: 20px;
-    box-shadow: black 4px 4px; 
-    
+    padding: 40px;
+    box-shadow: black 4px 4px;
+    margin-right: 10vmin; 
 }
 h1{
     color: #FF3864;
@@ -101,7 +92,6 @@ h1{
     padding-right: 100px;
     margin-bottom: 20px;
 }
-
 h2{
     color: black;
     font-weight: normal;
@@ -120,15 +110,17 @@ h2::before{
     margin-bottom: 5px;
     border-radius: 50%;
  }
- #TXT1{
+ #main-buttons{
      display: flex;
-     margin: 20px;
+    justify-content: left;
+    margin: 20px;
  }
 .buttons{
     background-color: #FF3864;
     padding: 20px;
     border-radius: 27px;
     margin-right: 60px;
+    box-shadow: black 4px 4px;
 }
-
+                                                        /* F DO MAIN*/
 
