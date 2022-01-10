@@ -1,12 +1,6 @@
-.wrapper{
-    display:flex;
-    flex-direction: column;
-}
 
 .skills-box{
     display: flex;
-    width: 960px;
-    height: 480px;
-    margin-top: 12px;
-    justify-content: space-between;
+    padding-top: 50px;
+    column-gap: 100px;
 }
