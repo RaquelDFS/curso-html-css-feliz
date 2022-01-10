@@ -1,0 +1,15 @@
+#container{
+    position: relative;
+    top: 200px;
+    left: 5vw;
+}
+#section1{
+    display: table;
+    background-color: white;
+    border-radius: 27px;
+    padding: 40px;
+    box-shadow: black 4px 4px;
+    margin-right: 10vmin; 
+}
+
+

@@ -1,0 +1,25 @@
+.my-name{
+    color: #FF3864;
+    font-weight: 600;
+    font-size: 50px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+}
+.subtitle{
+    color: black;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 45px;
+    font-style: italic;
+    padding-left: 15px; 
+}
+.subtitle::before{
+    display:   inline-block;
+    content:"";
+    background-color: #FF3864 ;
+    height: 10px;
+    width: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 50%;
+ }

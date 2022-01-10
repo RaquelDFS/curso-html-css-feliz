@@ -1,0 +1,22 @@
+main{
+    display: flex;
+    height: 900px;
+    border: 5px solid black;
+}
+
+#divA{
+    background-image: url(../../assets/bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 65vw;
+    border-right: 5px solid black; 
+}
+#divB{
+    background-image: url(../../assets/bg2.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: left;
+    width: 34vw; 
+}
