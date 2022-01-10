@@ -10,7 +10,7 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
-    width: 65vw;
+    width: 69vw;
     border-right: 5px solid black; 
 }
 #divB{
@@ -19,5 +19,5 @@ main{
     height: 100%;
     background-size: cover;
     background-position: left;
-    width: 34vw; 
+    width: 35vw;
 }

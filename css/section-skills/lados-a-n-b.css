@@ -1,0 +1,11 @@
+.lado-a{
+ display: flex;
+}
+.conteudo-skills{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.box-text-loading{
+    margin: 5px 0px 5px 25px;
+}
